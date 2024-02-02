@@ -1,0 +1,19 @@
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+
+  .drink {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > .img-container {
+      width: 35%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
