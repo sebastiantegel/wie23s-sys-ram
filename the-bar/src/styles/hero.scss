@@ -1,0 +1,13 @@
+main {
+  min-height: 100dvh;
+  background-color: purple;
+}
+
+section {
+  min-height: 100dvh;
+  background-color: lightpink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

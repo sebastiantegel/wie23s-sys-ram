@@ -1,0 +1,25 @@
+nav {
+  height: 100%;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+    padding: 0 20px;
+    margin: 0;
+
+    a {
+      color: black;
+
+      &.active {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
