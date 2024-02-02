@@ -4,7 +4,7 @@ import "./../styles/hero.scss";
 export const Layout = () => {
   return (
     <>
-      <main>Hero</main>
+      <main className="hero">Hero</main>
       <section>
         <Link to={"/pages/drinks"}>Vårt utbud</Link>
       </section>

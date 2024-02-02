@@ -33,7 +33,7 @@ footer {
   /* border: 1px solid grey; */
   min-height: 30dvh;
   width: 100%;
-}
-
-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
