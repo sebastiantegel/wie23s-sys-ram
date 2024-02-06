@@ -8,11 +8,7 @@ interface IThemeProviderProps {
 export const ThemeProvider = ({ children }: IThemeProviderProps) => {
   const [currentTheme, setCurrentTheme] = useState<ITheme>(themes.night);
 
-  console.log(currentTheme);
-
   currentTheme.toggleTheme = () => {
-    console.log("Toggling");
-
     currentTheme === themes.day
       ? setCurrentTheme(themes.night)
       : setCurrentTheme(themes.day);
